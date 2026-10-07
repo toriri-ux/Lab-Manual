@@ -1,0 +1,57 @@
+import sys
+import numpy
+import pandas
+import sklearn
+import scipy
+import matplotlib
+import seaborn
+import torch
+import torchvision
+import torchinfo
+import thop
+import onnx
+import onnxruntime
+import mlflow
+import memory_profiler
+import psutil
+import codecarbon
+import fastapi
+import uvicorn
+import pytest
+import httpx
+import locust
+import requests
+import pyarrow
+import joblib
+import tqdm
+
+def main():
+    print("Python:", sys.version)
+    print("numpy:", numpy.__version__)
+    print("pandas:", pandas.__version__)
+    print("scikit-learn:", sklearn.__version__)
+    print("scipy:", scipy.__version__)
+    print("matplotlib:", matplotlib.__version__)
+    print("seaborn:", seaborn.__version__)
+    print("torch:", torch.__version__)
+    print("torchvision:", torchvision.__version__)
+    print("torchinfo:", torchinfo.__version__)
+    print("thop:", thop.__version__)
+    print("onnx:", onnx.__version__)
+    print("onnxruntime:", onnxruntime.__version__)
+    print("mlflow:", mlflow.__version__)
+    print("memory-profiler:", memory_profiler.__version__)
+    print("psutil:", psutil.__version__)
+    print("codecarbon:", codecarbon.__version__)
+    print("fastapi:", fastapi.__version__)
+    print("uvicorn:", uvicorn.__version__)
+    print("pytest:", pytest.__version__)
+    print("httpx:", httpx.__version__)
+    print("locust:", locust.__version__)
+    print("requests:", requests.__version__)
+    print("pyarrow:", pyarrow.__version__)
+    print("joblib:", joblib.__version__)
+    print("tqdm:", tqdm.__version__)
+
+if __name__ == "__main__":
+    main()
