@@ -15,7 +15,7 @@ Y = enc.fit_transform(y)
 X_train, X_test, Y_train, Y_test = train_test_split(
     X, Y, test_size=0.3, stratify=y, random_state=42
 )
-
+ 
 
 def relu(x):
     return np.maximum(0, x)
