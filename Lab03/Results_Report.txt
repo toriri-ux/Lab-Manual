@@ -1,0 +1,38 @@
+FASHION-MNIST MODEL COMPARISON REPORT
+
+TEST ACCURACY
+------------------------------
+MLP Accuracy      : 87.66%
+CNN Accuracy      : 88.98%
+Attention Accuracy: 83.10%
+
+PARAMETER COUNTS
+------------------------------
+MLP Parameters      : 235,146
+CNN Parameters      : 20,490
+Attention Parameters: 3,850
+
+THOP FLOP RESULTS
+------------------------------
+MLP FLOPs      : 234,752
+CNN FLOPs      : 1,031,744
+Attention FLOPs: 50,816
+
+LATENCY RESULTS
+------------------------------
+MLP Latency      : 0.1170 ms
+CNN Latency      : 0.3671 ms
+Attention Latency: 0.9954 ms
+
+MANUAL FLOP CALCULATIONS
+------------------------------
+MLP Linear Layer      : 401,408
+CNN Conv Layer        : 225,792
+Attention QKV Layer   : 393,216
+
+CONCLUSION
+------------------------------
+Best Accuracy Model: CNN (88.98%)
+
+
+
